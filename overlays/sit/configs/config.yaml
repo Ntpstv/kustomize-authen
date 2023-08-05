@@ -1,0 +1,39 @@
+# don't forget to update config.model
+environment: sit
+
+app:
+  name: authen
+
+server:
+  port: 8080
+  timeout: 15
+
+log:
+  environment: production
+  level: info
+  format: json
+
+
+# kafka:
+#   address: 
+#     - kafka.poc.internal:9092
+#   topic: example-topic
+#   consume-group: att-user-consumer-group
+
+
+postgres:
+  host: 172.28.240.42
+  port: 5432
+  db-name: att-db
+
+
+redis:
+  address: 172.28.241.3:6379
+  database: 1
+
+# product-list-key: ATT_USER_LIST
+
+email-info:
+  email: pangg000.hi3@gmail.com
+  subject: "[testdevatt]- One-Time Password (OTP) Verification Code"
+
