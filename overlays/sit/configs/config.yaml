@@ -24,7 +24,11 @@ log:
 postgres:
   host: 172.28.240.42
   port: 5432
-  db-name: att-db
+  db-name: example-db
+  # postgres:
+  # host: localhost
+  # port: 5432
+  # db-name: example-db
 
 
 redis:
@@ -34,6 +38,6 @@ redis:
 # product-list-key: ATT_USER_LIST
 
 email-info:
-  email: pangg000.hi3@gmail.com
-  subject: "[testdevatt]- One-Time Password (OTP) Verification Code"
+  email: testdevatt@gmail.com
+  subject: "OTP verification code received"
 
