@@ -1,5 +1,5 @@
 # don't forget to update config.model
-environment: local
+environment: sit
 
 app:
   name: authen
