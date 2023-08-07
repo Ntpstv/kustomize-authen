@@ -14,11 +14,11 @@ log:
   format: json
 
 
-kafka:
-  address: 
-    - kafka.poc.internal:9092
-  topic: example-topic
-  consume-group: att-user-consumer-group
+# kafka:
+#   address: 
+#     - kafka.poc.internal:9092
+#   topic: example-topic
+#   consume-group: att-user-consumer-group
 
 
 postgres:
