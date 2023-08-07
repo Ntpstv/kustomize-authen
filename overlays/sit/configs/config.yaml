@@ -14,17 +14,17 @@ log:
   format: json
 
 
-# kafka:
-#   address: 
-#     - kafka.poc.internal:9092
-#   topic: example-topic
-#   consume-group: att-user-consumer-group
+kafka:
+  address: 
+    - kafka.poc.internal:9092
+  topic: example-topic
+  consume-group: att-user-consumer-group
 
 
 postgres:
   host: 172.28.240.42
   port: 5432
-  db-name: example-db
+  db-name: att-db
   # postgres:
   # host: localhost
   # port: 5432
