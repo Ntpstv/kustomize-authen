@@ -6,7 +6,7 @@ resources:
 
 images:
 - name: asia.gcr.io/poc-innovation-iot/att-admin-authen
-  newTag: 81018a3a
+  newTag: 08adcec4
 
 
 configMapGenerator:
@@ -20,4 +20,3 @@ secretGenerator:
   envs:
   - secrets/secret.env
   name: att-admin-authen-secret-env
-  
