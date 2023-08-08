@@ -20,3 +20,4 @@ secretGenerator:
   envs:
   - secrets/secret.env
   name: att-admin-authen-secret-env
+  
