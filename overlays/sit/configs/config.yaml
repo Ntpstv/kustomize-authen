@@ -33,7 +33,7 @@ postgres:
 
 redis:
   address: 172.28.241.3:6379
-  database: 0
+  database: 1
 
 # product-list-key: ATT_USER_LIST
 
