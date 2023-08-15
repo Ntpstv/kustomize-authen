@@ -46,11 +46,11 @@ spec:
             initialDelaySeconds: 10
           resources:
             limits:
-              cpu: 64m
-              memory: 512Mi
+              cpu: 200m
+              memory: 128Mi
             requests:
-              cpu: 32m
-              memory: 256Mi
+              cpu: 100m
+              memory: 64Mi
       volumes:
         - name: att-admin-authen-secret-file
           secret:
