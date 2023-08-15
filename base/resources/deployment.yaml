@@ -47,10 +47,10 @@ spec:
           resources:
             limits:
               cpu: 64m
-              memory: 64Mi
+              memory: 512Mi
             requests:
               cpu: 32m
-              memory: 32Mi
+              memory: 256Mi
       volumes:
         - name: att-admin-authen-secret-file
           secret:
