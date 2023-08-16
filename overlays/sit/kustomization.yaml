@@ -6,7 +6,7 @@ resources:
 
 images:
 - name: asia.gcr.io/poc-innovation-iot/att-admin-authen
-  newTag: e949e71a
+  newTag: dc2a974a
 
 
 configMapGenerator:
